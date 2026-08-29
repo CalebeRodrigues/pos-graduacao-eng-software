@@ -6,7 +6,7 @@ public class Pessoa {
     double altura;
 
     public void calcularIMC(double pes, double alt) {
-        double imc, pes, alt;
+        double imc;
         peso = pes;
         altura = alt;
         imc = peso / (altura * altura);
